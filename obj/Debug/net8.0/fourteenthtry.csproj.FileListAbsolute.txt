@@ -1,0 +1,14 @@
+C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\bin\Debug\net8.0\fourteenthtry.exe
+C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\bin\Debug\net8.0\fourteenthtry.deps.json
+C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\bin\Debug\net8.0\fourteenthtry.runtimeconfig.json
+C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\bin\Debug\net8.0\fourteenthtry.dll
+C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\bin\Debug\net8.0\fourteenthtry.pdb
+C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\obj\Debug\net8.0\fourteenthtry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\obj\Debug\net8.0\fourteenthtry.AssemblyInfoInputs.cache
+C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\obj\Debug\net8.0\fourteenthtry.AssemblyInfo.cs
+C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\obj\Debug\net8.0\fourteenthtry.csproj.CoreCompileInputs.cache
+C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\obj\Debug\net8.0\fourteenthtry.dll
+C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\obj\Debug\net8.0\refint\fourteenthtry.dll
+C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\obj\Debug\net8.0\fourteenthtry.pdb
+C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\obj\Debug\net8.0\fourteenthtry.genruntimeconfig.cache
+C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\obj\Debug\net8.0\ref\fourteenthtry.dll
