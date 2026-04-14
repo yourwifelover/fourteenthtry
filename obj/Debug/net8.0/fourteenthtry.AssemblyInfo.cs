@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("fourteenthtry")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cd7bded84b719fe5faa320855530110681ebedb3")]
 [assembly: System.Reflection.AssemblyProductAttribute("fourteenthtry")]
 [assembly: System.Reflection.AssemblyTitleAttribute("fourteenthtry")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -27,14 +27,34 @@ HealtyOrder healtyOrder = new HealtyOrder(
     moreMoney: "Extra Dressing"
 );
 
-pizzaOrder.CalculateTotalPrice();
-pizzaOrder.GetDeliveryTime();
-pizzaOrder2.CalculateTotalPrice();
-pizzaOrder2.GetDeliveryTime();
+List<FoodOrder> orders = new List<FoodOrder>()
+{
+    pizzaOrder,
+    pizzaOrder2,
+    sushiOrder,
+    healtyOrder
+};
 
-sushiOrder.CalculateTotalPrice();
-sushiOrder.GetDeliveryTime();
 
-healtyOrder.CalculateTotalPrice();
-healtyOrder.GetDeliveryTime();
+int max = orders.Max(order => order.GetPrice);
 
+foreach (var order in orders)
+{
+    Console.WriteLine("=================================");
+    order.GetInfo();
+    if(order.GetPrice == max)
+        Console.WriteLine("Це замовлення має максимальну цiну!");
+    Console.WriteLine("---------------");
+    order.CalculateTotalPrice();
+    Console.WriteLine("---------------");
+    order.GetDeliveryTime();
+
+    Console.WriteLine("=================================");
+}
+
+
+
+Console.WriteLine("Максимальна цiна: " + max);
+
+double average = orders.Average(order => order.GetPrice);
+Console.WriteLine("Середня цiна: " + average);

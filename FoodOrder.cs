@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace fourteenthtry
 {
-    abstract class FoodOrder: IDeliverable
+    abstract class FoodOrder : IDeliverable
     {
         public abstract void GetDeliveryTime();// Interface method implementation
         public abstract void CalculateTotalPrice();
@@ -18,6 +18,11 @@ namespace fourteenthtry
         private protected int Price { get; set; }
         private protected int Quantity { get; set; }
         private protected int Money { get; set; }
+
+        public int GetPrice
+        {
+            get { return Price; }
+        }
     }
     class PizzaOrder : FoodOrder
     {
@@ -37,7 +42,15 @@ namespace fourteenthtry
                 time += 5;
             Console.WriteLine("Доставка пiци:" + time);
 
-        }      
+        }   
+        
+        public override void GetInfo()
+        {
+            Console.WriteLine("Назва: " + Name);
+            Console.WriteLine("Цiна: " + Price);
+            Console.WriteLine("Кiлькiсть: " + Quantity);
+            Console.WriteLine("Розмiр: " + Size);
+        }
         public PizzaOrder(string name, int price, int quantity, string size)
         { 
             Name = name;            
@@ -77,7 +90,15 @@ namespace fourteenthtry
             Console.WriteLine("Доставка суш: " + time);
 
         } // Interface method implementation
-        
+
+        public override void GetInfo()
+        {
+            Console.WriteLine("Назва: " + Name);
+            Console.WriteLine("Цiна: " + Price);
+            Console.WriteLine("Кiлькiсть: " + Quantity);
+            Console.WriteLine("Набори: " + Sets);
+        }
+
         public SushiOrder(string name, int price, int quantity, int sets)
         {
             Name = name;
@@ -103,6 +124,16 @@ namespace fourteenthtry
 
 
         }
+
+        public override void GetInfo()
+        {
+            Console.WriteLine("Назва: " + Name);
+            Console.WriteLine("Цiна: " + Price);
+            Console.WriteLine("Кiлькiсть: " + Quantity);
+            if (MoreMoney > 0)
+                Console.WriteLine("Додатково: " + MoreMoney);
+        }
+
         private protected int MoreMoney { get; set; }
         public HealtyOrder(string name, int price, int quantity, string moreMoney)
         {

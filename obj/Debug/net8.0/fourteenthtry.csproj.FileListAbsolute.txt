@@ -12,3 +12,4 @@ C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\obj\Debug\net8.0\refint\f
 C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\obj\Debug\net8.0\fourteenthtry.pdb
 C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\obj\Debug\net8.0\fourteenthtry.genruntimeconfig.cache
 C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\obj\Debug\net8.0\ref\fourteenthtry.dll
+C:\Users\Asus\source\repos\fourteenthtry\fourteenthtry\obj\Debug\net8.0\fourteenthtry.sourcelink.json
